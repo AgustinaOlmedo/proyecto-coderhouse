@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/logo-nanica-origin.jpg" type="image/x-icon">
+    <title>Nanica</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./assets/logo-nanica-origin.jpg" alt="Logo de la empresa" width="300" height="300"></a>
+        <div class="search-container">
+            <form action="#" method="get">
+                <input type="text" placeholder="Buscar..." name="search">
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html" class="EnNegrita">Inicio</a></li>
+                <li><a href="./pages/productos.html" target="_blank">Productos</a></li>
+                <li><a href="./pages/contactos.html" target="_blank">Contacto</a></li>
+                <li><a href="./pages/ubicacion.html" target="_blank">Ubicación</a></li>
+                <li><a href="./pages/instructivos.htm" target="_blank">Instructivos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>¿Quienes somos?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum quos voluptates error consequuntur repellat id repellendus nihil quidem illo tempore corrupti iusto cumque voluptatum a libero eius placeat, facere molestiae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde excepturi nostrum a atque magnam. Consequatur ut obcaecati reprehenderit iure aspernatur corporis, iusto distinctio, dolorem ex quibusdam tempore rem temporibus similique. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, nobis. Omnis nesciunt possimus earum sed sint, aperiam nam delectus ipsa in, autem placeat. Unde magnam saepe praesentium magni voluptatem quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique quis quo asperiores fugit nobis aperiam dolorum nulla, provident quas molestias enim amet laboriosam quisquam illo. Nobis inventore error sequi?</p>
+        <h2>Productos mas vendidos</h2>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/kit-de-aromas-lila.jpg" class="d-block w-100" alt="Kit aromatico que trae un hornito portasahumerio y una vela">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/fuente-a-lineas.jpg" class="d-block w-100" alt="fuente de ceramica que tiene lineas de diseño">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/mate-amarillo.jpg" class="d-block w-100" alt="mate de ceramica que tiene una bombilla">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+            <img src="./assets/enviosypagos.jpg" alt="metodos de envio y pagos" class="ImagendeEnviosypagos">
+    </main>
+    <footer>
+        <div class="redessociales">
+            <h4>Redes sociales</h4>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fas fa-envelope"></i>
+        </div> 
+        <div class="contactanos">   
+            <h4>Contactanos</h4>
+            <i class="fas fa-envelope"></i>
+            <i class="fas fa-map-marker-alt"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <div class="formulario-contacto">
+            <h4>!Suscríbete y enterarte de nuestras promociones!</h4>
+            <form action="#" method="post">
+                   <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                   
+                   <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                   
+                   <input type="submit" value="Enviar">
+            </form>
+         </div>
+    </footer>
+<script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
