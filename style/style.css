@@ -7,18 +7,15 @@ header{
     background-color: #4b0919;
 opacity: 0.8;
 background: repeating-linear-gradient( -45deg, #ccb28d, #ccb28d 5px, #4b0919 5px, #4b0919 25px );
-
 }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: Arial, sans-serif;
 }
-
 ul {
     list-style: none;
     display: flex;
@@ -27,7 +24,6 @@ ul {
     border: solid;
     border-color: #5d0c1d;
     border-width: 1px;
-
 }
 a{
     text-decoration: none;
@@ -74,7 +70,6 @@ h1{
     max-width: 700px;
     margin: 0 auto;
 }
-
 .carousel-inner img {
     height: auto; 
     max-height: 400px;
@@ -95,18 +90,15 @@ footer {
     padding: 20px;
     text-size-adjust: 30px;
 }
-
 footer div {
     flex: 1;
     padding: 10px; 
 }
-
 footer h3 {
     border-bottom: 1px solid #ccc; 
     padding-bottom: 10px; 
     margin-bottom: 15px; 
 }
-
 footer p {
     margin: 5px 0; 
 }
@@ -246,7 +238,6 @@ article button:hover {
     gap: 20px;
     justify-content: center;
 }
-
 .mapita {
     display: flex;
     flex-direction: column;
@@ -254,74 +245,18 @@ article button:hover {
     margin: 20px;
     width: 500px; 
 }
-
 .card {
     margin-top: 20px; 
     width: 100%;
 }
-
 .card img {
     width: 100%; 
     height: auto; 
 }
-
 .card-body {
     text-align: center; 
 }
-.hornitos {
-    display: flex;
-    align-items: flex-start; 
-    gap: 20px; 
-    padding: 20px;
-}
 
-.hornitos img {
-    max-width: 150px; 
-    height: auto;
-}
-
-.hornitos ol {
-    margin: 0;
-    padding: 0;
-    list-style-position: inside; 
-}
-.velasfoto {
-    display: flex;
-    align-items: flex-start; 
-    gap: 20px; 
-    padding: 20px;
-}
-
-.velasfoto img {
-    max-width: 150px; 
-    height: auto; 
-    order: 2; 
-}
-
-.velasfoto ol {
-    margin: 0;
-    padding: 0;
-    list-style-position: inside; 
-    order: 1; 
-}
-.textoalmedio{
-    text-align: center;
-}
-.menu {
-    display: none;
-}
-
-.menu-toggle {
-    display: none;
-}
-
-.menu-icon {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-/* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -333,42 +268,22 @@ article button:hover {
         margin: 10px 0;
     }
 
-    .menu-icon {
-        display: block;
-    }
-
-    .menu-toggle:checked + .menu-icon + nav .menu {
+    .menu-toggle:checked + nav .menu {
         display: flex;
         flex-direction: column;
         width: 100%;
         margin-top: 10px;
     }
-
-    nav ul li {
-        width: 100%;
-        margin: 5px 0;
     }
 
-    nav ul li a {
-        display: block;
-        width: 100%;
-        padding: 10px;
-        background-color: #e9ecef;
-        text-align: center;
-    }
-    body {
-        padding: 10px;
-
-    }
-
-    main {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .carousel-inner img {
-        width: 100%;
-        height: auto;
-    }
+.modificartitulo{
+ text-align: center;
+margin: 70px;
+}
+ol{
+    text-align: center;
+    list-style-position: inside; 
+}
+.centrotitu{
+    text-align: center;
 }
