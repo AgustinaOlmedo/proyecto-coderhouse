@@ -11,15 +11,18 @@
 </head>
 <body>
     <header>
-        <a href="./index.html"><img src="./assets/logo-nanica-origin.jpg" alt="Logo de la empresa" width="300" height="300"></a>
+      <div class="logonav">
+        <a href="./index.html"><img src="./assets/logo-nanica-origin.jpg" alt="Logo de la empresa" width="300" height="300" class="logodeinicio"></a>
         <div class="search-container">
             <form action="#" method="get">
                 <input type="text" placeholder="Buscar..." name="search">
                 <button type="submit">Buscar</button>
             </form>
         </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="./index.html" class="EnNegrita">Inicio</a></li>
                 <li><a href="./pages/productos.html" target="_blank">Productos</a></li>
                 <li><a href="./pages/contactos.html" target="_blank">Contacto</a></li>
@@ -27,6 +30,7 @@
                 <li><a href="./pages/instructivos.htm" target="_blank">Instructivos</a></li>
             </ul>
         </nav>
+        </div>
     </header>
     <main>
         <h1>¿Quienes somos?</h1>
