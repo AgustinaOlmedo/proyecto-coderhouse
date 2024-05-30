@@ -304,6 +304,6 @@ article button:hover {
     list-style-position: inside; 
     order: 1; 
 }
-h2, h4{
+.textoalmedio{
     text-align: center;
 }
