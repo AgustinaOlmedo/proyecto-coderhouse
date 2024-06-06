@@ -270,6 +270,8 @@ article button:hover {
     .nav-list{
         display: flex;
         flex-direction: row;
+        padding: 10px;
+        right: 10px;
     }
     .search-container {
         width: 100%;
@@ -278,6 +280,9 @@ article button:hover {
     footer{
         display: flex;
         flex-direction: column;
+    }
+    li{
+        margin: 4px;
     }
 }
 
