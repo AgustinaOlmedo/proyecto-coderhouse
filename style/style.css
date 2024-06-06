@@ -256,7 +256,13 @@ article button:hover {
 .card-body {
     text-align: center; 
 }
-
+.formulado{
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    text-align: center;
+}
 @media (max-width: 768px) {
     .logodeinicio{
         width: 100%;
@@ -283,6 +289,10 @@ article button:hover {
     }
     li{
         margin: 4px;
+    }
+    .formulado{
+        display: flex;
+        flex-direction: column;
     }
 }
 
