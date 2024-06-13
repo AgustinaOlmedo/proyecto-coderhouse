@@ -1,23 +1,13 @@
 .conjuntodemapas {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    @include flexcontain(row, center, center, wrap, 20px);
 }
 .mapita {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flexcontain(column, center);
     margin: 20px;
     width: 500px; 
 }
 .card {
-    margin-top: 20px; 
-    width: 100%;
-    img{
-        width: 100%; 
-        height: auto; 
-    }
+    @include card;
 }
 .card-body {
     text-align: center; 

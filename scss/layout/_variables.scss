@@ -20,3 +20,82 @@ $paletaColores: #ccb28d, #5d0c1d, #4b0919;
     display: flex;
     flex-direction: row;
 }
+@mixin directionrow {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin searchercontainer {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+@mixin textalignh {
+    text-align: center;
+}
+
+@mixin displayflex {
+    display: flex;
+}
+@mixin centerblock {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin diseñoimg {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+@mixin flex-container($justify: center, $gap: 0) {
+    display: flex;
+    justify-content: $justify;
+    gap: $gap;
+}
+
+@mixin centered-content($max-width: 100%) {
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+@mixin form-element($padding: 10px, $border-radius: 5px) {
+    width: 100%;
+    padding: $padding;
+    margin-bottom: 10px;
+    border: 1px solid $colorTerciario;
+    border-radius: $border-radius;
+}
+
+@mixin button($bg-color, $color: white, $hover-bg-color) {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: $bg-color;
+    color: $color;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $hover-bg-color;
+    }
+}
+@mixin flexcontain($flex-direction: row, $justify: center, $align: center, $wrap: nowrap, $gap: 0) {
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+    gap: $gap;
+}
+@mixin card {
+    width: 100%;
+    margin-top: 20px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
