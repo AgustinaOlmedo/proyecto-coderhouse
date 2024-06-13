@@ -1,0 +1,22 @@
+$colorPrimario: #ccb28d;
+$colorSecundario: #5d0c1d;
+$colorTerciario:  #4b0919;
+$paletaColores: #ccb28d, #5d0c1d, #4b0919;
+%textalignh{
+    text-align: center;
+    padding: 20px;
+    color: $colorTerciario; 
+}
+%displayflex{
+    display: flex;
+    align-items: center;
+}
+%searchercontainer{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+%directionrow{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,24 @@
+.conjuntodemapas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.mapita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 500px; 
+}
+.card {
+    margin-top: 20px; 
+    width: 100%;
+    img{
+        width: 100%; 
+        height: auto; 
+    }
+}
+.card-body {
+    text-align: center; 
+}
