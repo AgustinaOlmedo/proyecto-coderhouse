@@ -1,11 +1,11 @@
 .contactoporaca {
     list-style: none;
     padding: 0;
-    @include flex-container(space-between, 20px);
+    @include flex-container(space-between, 10px);
     margin-top: 20px;
-    background-color: #ffffff;
-
+    border-style:groove;
     li {
+        border-style: initial;
         padding: 10px;
         border-radius: 5px;
 
