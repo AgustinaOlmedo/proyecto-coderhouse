@@ -1,10 +1,7 @@
 @media (max-width: 768px) {
     .logodeinicio {
-        order: 1;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 10px;
+        padding: 0;
     }
     header {
         flex-direction: column;
@@ -34,5 +31,8 @@
     .formulado{
         display: flex;
         flex-direction: column;
+    }
+    .catalogoDeMates article, .catalogoDeCuencos article, .catalogoDeVelas article {
+        width: 100%; 
     }
 }

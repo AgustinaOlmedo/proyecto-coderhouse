@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -154,37 +155,52 @@ footer .formulado .botonenviar {
   margin-right: auto;
 }
 
-.categoria {
-  margin-bottom: 50px;
+section {
+  margin-bottom: 20px; /* Espacio entre secciones */
 }
 
-.catalogoDeMates,
-.catalogoDeCuencos,
-.catalogoDeVelas {
+.categoria {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.catalogoDeMates, .catalogoDeCuencos, .catalogoDeVelas {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 60px;
+  justify-content: space-around;
+}
+
+.catalogoDeMates article, .catalogoDeCuencos article, .catalogoDeVelas article {
+  width: calc(25% - 20px); /* Ajustar el ancho de cada artículo para formar 4 columnas */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.catalogoDeMates img, .catalogoDeCuencos img, .catalogoDeVelas img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px; /* Centrar las imágenes */
+}
+
+.catalogoDeMates p, .catalogoDeCuencos p, .catalogoDeVelas p {
+  margin-bottom: 10px;
+}
+
+.catalogoDeMates button, .catalogoDeCuencos button, .catalogoDeVelas button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 article {
-  background-color: rgba(100, 75, 82, 0.3137254902);
-  border-radius: 5px;
-  padding: 1px;
-  box-shadow: 0 0 100px rgba(90, 50, 50, 0.356);
-  margin-bottom: 10px;
-}
-article img {
-  width: 80%;
-  border-radius: 1px;
-  margin-bottom: 1px;
   padding: 30px;
-}
-article p {
-  margin-bottom: 10px;
-}
-article button:hover {
-  background-color: rgb(124, 84, 87);
+  border-style: double;
+  border-color: rgb(124, 43, 68);
+  background-image: linear-gradient(to bottom, rgba(93, 12, 30, 0.3647058824), #f5f5f5);
 }
 
 .conjuntodemapas {
@@ -298,11 +314,8 @@ main ol {
 
 @media (max-width: 768px) {
   .logodeinicio {
-    order: 1;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    padding: 0;
   }
   header {
     flex-direction: column;
@@ -332,6 +345,9 @@ main ol {
   .formulado {
     display: flex;
     flex-direction: column;
+  }
+  .catalogoDeMates article, .catalogoDeCuencos article, .catalogoDeVelas article {
+    width: 100%;
   }
 }
 
