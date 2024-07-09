@@ -1,5 +1,5 @@
 section {
-    margin-bottom: 20px; /* Espacio entre secciones */
+    margin-bottom: 20px; 
 }
 
 .categoria {
@@ -14,7 +14,7 @@ section {
 }
 
 .catalogoDeMates article, .catalogoDeCuencos article, .catalogoDeVelas article {
-    width: calc(25% - 20px); /* Ajustar el ancho de cada artículo para formar 4 columnas */
+    width: calc(25% - 20px); 
     margin-bottom: 20px;
     text-align: center;
 }
@@ -23,7 +23,7 @@ section {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto 10px; /* Centrar las imágenes */
+    margin: 0 auto 10px;
 }
 
 .catalogoDeMates p, .catalogoDeCuencos p, .catalogoDeVelas p {

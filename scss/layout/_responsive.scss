@@ -1,7 +1,16 @@
 @media (max-width: 768px) {
-    .logodeinicio {
+    }
+    .iniciodelogo{
         width: 100%;
-        padding: 0;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .logodeinicio {
+        width: 335px;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
     }
     header {
         flex-direction: column;
@@ -35,4 +44,3 @@
     .catalogoDeMates article, .catalogoDeCuencos article, .catalogoDeVelas article {
         width: 100%; 
     }
-}
